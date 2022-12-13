@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <h1>2d transform</h1>
+    <h3>
+      rotate elementnin soat strelkasi bo'yicha yoki tesjari buradi
+      <br />
+      misol
+      <br />
+      transform: rotate(20deg); transform: rotate(-20deg);
+    </h3>
+    <br />
+    <h1>transform orign</h1>
+    <h3>
+      transform amal qiladigan nuqta <br />
+      misol <br />
+      transform-orign: center;<br />
+      top-left; <br />
+      right-buttom; <br />
+      (30px, 40px);
+    </h3>
+    <br />
+    <h1>translate</h1>
+
+    <h3>
+      translate elementni hozirgi joyidan surish uchun ishlatiladi <br />
+      misol <br />
+      div{ <br />
+      transform: translate(x, y) <br />}
+    </h3>
+    <br />
+    <h1>scale</h1>
+    <h3>
+      transform scale elementni o'lchovini o'zgartirish uchun ishlatiladi <br />
+      (0;1) qiymat elementt o'lchamini kamaytiradi <br />
+      1 dan katta qiymatda element o'lchami kattalashadi
+    </h3>
+    <br />
+    <h1>skew</h1>
+    <h3>
+      skew elemntni ma'lum bir darajaga (deg) og'dirish uchun ishlatiladi <br />
+      mandiy qiymat og'ish burchagini teskari tomonga o'zgartiradi <br />
+      misol:
+      <br />
+      transform: skew(x, y);
+      <br />
+      skew (20deg, 30deg);
+      <br />
+    </h3>
+    <br />
+    <h1>perspective</h1>
+    <h3>
+      element userdan qanday uzoqlikda turganini belgilab beradi qiymat qancha
+      kichik bo'lsa element foydalanuvchiga shuncha yaqin bo'ladi <br />
+      misol
+      <br />
+      div{ <br />
+      transform: perspective(40px) translate3d(0px, -30px, -20px); <br />
+      }
+    </h3>
+
+    <br />
+    <h1>transition</h1>
+
+    <h3>
+      elementga effektning qancha vaqt tasir qilishi <br />
+      misol <br />
+      transition: width 1.3s, background-color 1.3s, border-radius 1.3s;
+      <br />
+      transition: all 1.3s;
+    </h3>
+    <p>yuqorida berilgan transition hover qilinganda ishlaydi</p>
+  </body>
+</html>
